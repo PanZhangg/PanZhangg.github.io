@@ -19,13 +19,16 @@
   
   
   
-  <meta property="og:type" content="website">
+  <meta name="description" content="RECREATING WONDER">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Cloud Wonders">
-<meta property="og:url" content="http://yoursite.com/archives/2018/10/index.html">
+<meta property="og:url" content="https://panzhang.github.io/archives/2018/10/index.html">
 <meta property="og:site_name" content="Cloud Wonders">
+<meta property="og:description" content="RECREATING WONDER">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cloud Wonders">
+<meta name="twitter:description" content="RECREATING WONDER">
   
     <link rel="alternate" href="/atom.xml" title="Cloud Wonders" type="application/atom+xml">
   
@@ -76,10 +79,6 @@ var themeMenus = {};
 
   themeMenus["/archives"] = "Archives"; 
 
-  themeMenus["/categories"] = "Categories"; 
-
-  themeMenus["/tags"] = "Tags"; 
-
   themeMenus["/about"] = "About"; 
 
 </script>
@@ -99,6 +98,8 @@ var themeMenus = {};
           </h1>
 
           
+            <div class="site-description">RECREATING WONDER</div>
+          
             
           <nav id="main-navigation" class="main-navigation" role="navigation">
             <a class="nav-open">Menu</a>
@@ -110,10 +111,6 @@ var themeMenus = {};
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">Home</a> </li>
                     
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">Archives</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/categories">Categories</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/tags">Tags</a> </li>
                     
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">About</a> </li>
                     
@@ -137,7 +134,7 @@ var themeMenus = {};
 
   <script>
   function setAboutIMG(){
-      var imgUrls = "css/images/pose.jpg,https://source.unsplash.com/collection/954550/1920x1080".split(",");
+      var imgUrls = "css/images/pose.jpg".split(",");
       var random = Math.floor((Math.random() * imgUrls.length ));
       if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
         document.getElementById("originBg").src=imgUrls[random];
@@ -261,23 +258,15 @@ var themeMenus = {};
     	<ul class="clearfix widget-social-icons">   
     	
           
-     			  <li><a href="https://github.com/iTimeTraveler" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
+     			  <li><a href="https://github.com/panzhangg" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
           
    		
           
-     			  <li><a href="http://www.yoursite.com" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
+     			  <li><a href="" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
           
    		
           
      			  <li><a href="" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href="" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href="" title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
           
    		
           
@@ -397,10 +386,6 @@ var themeMenus = {};
     <a href="/" class="mobile-nav-link">Home</a>
   
     <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-    <a href="/categories" class="mobile-nav-link">Categories</a>
-  
-    <a href="/tags" class="mobile-nav-link">Tags</a>
   
     <a href="/about" class="mobile-nav-link">About</a>
   
